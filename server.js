@@ -85,7 +85,7 @@ async function enviarPix({ chave, valor, descricao }) {
   const token = await getToken();
   const pixBody = JSON.stringify({
     valor: parseFloat(valor),
-    descricao: descricao || 'PIX Automático Sudário',
+    descricao: descricao || 'E aí curtiu? ass: Wesley Dantas rs',
     destinatario: { tipo: 'CHAVE', chave: chave }
   });
 
